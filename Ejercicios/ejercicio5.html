@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <input  id="numeros" type="number" />
+    <button id="boton1" onclick="clickMe1();">Boton 1</button>
+    <button id="boton2" onclick="clickMe2();">Boton 2</button>
+
+    <script>
+        function clickMe1() {
+            const numero = document.getElementById("numeros").value;
+            console.log(numero);
+        }
+
+        function clickMe2() {
+            const numero = document.getElementById("numeros").value;
+            console.log(numero * 2);
+        }
+    </script>
+    
+</body>
+</html>

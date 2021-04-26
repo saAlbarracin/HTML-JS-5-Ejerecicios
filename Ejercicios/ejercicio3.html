@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <h1>Revelemos la contraseña</h1>
+    <input  id="clave" type="password">
+    <button onclick="clickMe();">Revelar</button>
+    <p id="mostrar"></p>
+
+    <script>
+        function clickMe() {
+            const contraseña = document.getElementById("clave").value;
+            const mostrar = document.getElementById("mostrar");
+            mostrar.textContent = "La contraseña es " + contraseña;
+
+        }
+    </script>
+    
+</body>
+</html>

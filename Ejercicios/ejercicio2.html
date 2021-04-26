@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    <h1>Ingresemos algo, y revisemos consola</h1>
+    <input id="ingresoText" type="text" />
+    <button onclick="clickMe();">Presiona Aquí</button>
+
+    <script>
+      function clickMe() {
+        let valor = document.getElementById("ingresoText").value;
+        console.log(valor);
+      }
+    </script>
+  </body>
+</html>
